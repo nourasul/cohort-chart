@@ -1,0 +1,79 @@
+/* the main style of the body */
+/* the background color, the color of the text, the font family and the margin */
+body{
+    background-color: #d6d7e2;
+    color: #000;
+    font-family: sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+/* # the style for the layout */
+#layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the style for the title section */
+#title{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    background-color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* style of the text in the title section */
+#title p{
+    margin-left: 20px;
+}
+
+/* style for the dropdown container */
+#dropdown_container{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+/* style for the chart container */
+#chartcontainer{
+    width: 80%;
+    border-radius: 30px;
+    padding:10px;
+    background-color: white;
+    margin-bottom: 30px;
+    height: 750px;
+}
+
+/* make the dash graph fit 100% of the height of the parent div */
+.dash-graph{
+    height: 100%;
+}
+
+/* style for the dropdown */
+.Select div{
+    border-radius: 25px;
+    padding:3px;
+}
+
+
+#countries-dropdown{
+    width: 100%;
+}
+
